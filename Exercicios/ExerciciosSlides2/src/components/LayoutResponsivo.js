@@ -12,7 +12,7 @@ const LayoutResponsivo = () => {
         </View>
 
         <View style={styles.content}>
-          <Text>Conteúdo Principal :)</Text>
+          <Text>Conteúdo Principal</Text>
         </View>
 
       <View style={styles.footer}>
