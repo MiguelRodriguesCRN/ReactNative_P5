@@ -6,9 +6,9 @@ Esse projeto é um exemplo simples de como fazer uma tela responsiva no React Na
 
 ## Como funciona
 
-A gente usa o `View` que é tipo uma `<div>` do html padrão, o `Text` pra mostrar texto e o `StyleSheet` pra criar os estilos, que são parecidos com CSS.
+A gente usa o View que é tipo uma <div> do html padrão, o Text pra mostrar texto e o StyleSheet pra criar os estilos, que são parecidos com CSS.
 
-No componente principal (`LayoutResponsivo`), tem um container que ocupa a tela toda e dentro dele três áreas: header, content e footer. Cada uma com sua cor e texto centralizado que foi o desafio/exercio da aula.
+No componente principal (LayoutResponsivo), tem um container que ocupa a tela toda e dentro dele três áreas: header, content e footer. Cada uma com sua cor e texto centralizado que foi o desafio/exercio da aula.
 
 ---
 
@@ -20,13 +20,13 @@ Usamos o `flex` pra controlar o tamanho de cada parte, podemos ver que no conteu
 
 ## No App.js
 
-Tem um `View` que ocupa a tela toda e dentro dele chamamos o `LayoutResponsivo`.
+Tem um View que ocupa a tela toda e dentro dele chamamos o `LayoutResponsivo`.
 
 ---
 
 ## Estilos
 
-Os estilos ficam num objeto chamado `styles` e aplicamos assim:
+Os estilos ficam num objeto chamado styles e aplicamos assim:
 
 ```jsx
 style={styles.nomeDoEstilo}
